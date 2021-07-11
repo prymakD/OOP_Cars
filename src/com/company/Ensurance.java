@@ -8,9 +8,12 @@ abstract class Ensurance {
         System.out.println("Insured car is " + whichIsInsured());
     }
 
-    protected void cleanup() {}
+    protected void cleanup() {
+    }
 
-    public String whichIsInsured() { return insured.getName(); }
+    public String whichIsInsured() {
+        return insured.getName();
+    }
 
     abstract Ensurance createNewEnsurance();
 }
