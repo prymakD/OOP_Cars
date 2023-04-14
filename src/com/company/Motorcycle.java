@@ -2,7 +2,7 @@ package com.company;
 
 public class Motorcycle extends Car {
     private int maxSpeed;
-    private static final String type = "Sedan"; //FINAL
+    private static final String type = "Sedanasdfas"; //FINAL
 
     public Motorcycle(String name, String color, int maxSpeed) {
         super(name, color);
